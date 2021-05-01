@@ -56,6 +56,7 @@ const Root = ({ state }) => {
           <div when={data.isPage}>This is a page</div>
         </Switch>
       </main>
+      <List />
     </>
   )
 }
